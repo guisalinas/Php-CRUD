@@ -82,10 +82,7 @@ class PageController
 
         catch(Exception $e){
             echo $e;
-            print $e;
-        }
-        
-        
+        }        
     }
 
     private function DeleteCar(){

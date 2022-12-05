@@ -4,7 +4,7 @@
                 <col-2></col-2>
                 <col-8>
                     <footer>
-                        <p>- TUP - Laboratorio de Computación II - Septiembre 2022 - Todos los derechos aprobados -</p>
+                        <p>- TUP - Laboratorio de Computación II - Todos los derechos aprobados -</p>
                     </footer>
                 </col-8>
                 <col-2></col-2>

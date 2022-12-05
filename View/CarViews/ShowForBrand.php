@@ -1,5 +1,5 @@
 <?php
-require_once 'Controller/PageController.php';
+    $car =  Car::GetCarByBrand($_GET['Brand']);
 ?>
 <section>
     <div class="titleDiv">
@@ -25,16 +25,16 @@ require_once 'Controller/PageController.php';
                             <?php
                             foreach ($car as $Car) { ?>
                                 <tr>
-                                    <th scope="row"><?= $Car->id ?></th>
-                                    <td><?= $Car->Brand ?></td>
-                                    <td><?= $Car->Model ?></td>
-                                    <td><?= $Car->Year ?></td>
-                                    <td>$<?= $Car->Price ?></td>
-                                    <td><?= $Car->DescriptionC ?></td>
+                                    <th scope="row"><?= $car->id ?></th>
+                                    <td><?= $car->Brand ?></td>
+                                    <td><?= $car->Model ?></td>
+                                    <td><?= $car->Year ?></td>
+                                    <td>$<?= $car->Price ?></td>
+                                    <td><?= $car->DescriptionC ?></td>
                                     <td>
                                         <div class="btn-group" role="group" aria-label="">
-                                            <a href="index.php?action=UpdateCar&id=<?php echo $Car->id ?>" class="btn"><img src="./Assets/edit.png" alt="icono"></a>
-                                            <a href="index.php?action=DeleteCar&id=<?php echo $Car->id ?>" class="btn"><img src="./Assets/delete.png" alt="icono"></a>
+                                            <a href="index.php?action=UpdateCar&id=<?php echo $car->id ?>" class="btn"><img src="./Assets/edit.png" alt="icono"></a>
+                                            <a href="index.php?action=DeleteCar&id=<?php echo $car->id ?>" class="btn"><img src="./Assets/delete.png" alt="icono"></a>
                                         </div>
                                     </td>
                                 </tr>

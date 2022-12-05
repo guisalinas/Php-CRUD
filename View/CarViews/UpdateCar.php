@@ -1,7 +1,3 @@
-<?php
-
-
-?>
 <section>
     <div class="titleDiv">
         <h3>EDITAR REGISTRO</h3>
@@ -12,14 +8,12 @@
             <div class="col-3">
                 <div class="card">
                     <div class="card-header">
-                    
                     <form method='post' action=''>
                         <label for="_id">Buscar por ID:</label>
                         <div class="mb-3">
                             <input type="text" class="form-control" id="_id" aria-describedby="helpId" placeholder="Ingrese ID">
                             <input name="btn" id="" class="btn btn-secondary btn-sm" type="submit" value="Buscar">
                         </div>
-
                     </form>
                     </div>
                 </div>
@@ -31,7 +25,7 @@
                         <form method="post" action=''>
                             <div class="mb-3">
                                 <label for="_id" class="form-label">Código ID:</label>
-                                <input type="text" class="form-control" name="_id" id="_id" aria-describedby="helpId" readonly Value="<?php if (!empty($Car)){$Car->id;}?>">
+                                <input type="text" class="form-control" name="_id" id="_id" aria-describedby="helpId" readonly Value="<?php  if(!empty($Car)){$Car->id;}?>">
                             </div>
                             <div class="mb-3">
                                 <label for="_Brand" class="form-label">Marca:</label>

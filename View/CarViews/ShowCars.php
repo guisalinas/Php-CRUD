@@ -31,7 +31,7 @@
                                     <td>
 
                                         <div class="btn-group" role="group" aria-label="">
-                                            <a href="index.php?action=UpdateCar&id=<?php echo $Car->id ?>" class="btn"><img src="./Assets/edit.png" alt="icono"></a>
+                                            <a href='index.php?action=UpdateCar&id=<?php echo $Car->id ?>' class="btn"><img src="./Assets/edit.png" alt="icono"></a>
                                             <a href="index.php?action=DeleteCar&id=<?php echo $Car->id ?>" class="btn"><img src="./Assets/delete.png" alt="icono"></a>
                                         </div>
                                     </td>

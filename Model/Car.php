@@ -78,7 +78,6 @@ class Car
             echo $e;
         }
 
-
     }
 
     //DELETE Car
